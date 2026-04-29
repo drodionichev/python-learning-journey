@@ -14,3 +14,8 @@ Become an SDET in 18-24 months
 - Created first repository: python-learning-journey
 - First steps with terminal, nano/pico editor, git config
 - Tomorrow: Python data types and mutable default arguments trap
+
+## Day 1 Reflection
+- Made first git push by myself, without instructions
+- Started feeling less afraid of terminal
+- Lesson: I remember more than I think
