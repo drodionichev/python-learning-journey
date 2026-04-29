@@ -6,13 +6,10 @@
 - `pwd` — show current directory
 - `mkdir <name>` — create directory
 - `touch <file>` — create empty file
-- `python3 --version` - check python, --version - speak OS, what
-it only check, don't start
-- `pip3 --version` - check version packet
-- `git --version` - check version github
+- `python3 --version` - show installed Python version
+- `pip3 --version` - show installed pip version 
+- `git --version` - show installed git version
 - `which python3` - path to file
-- `cd~` - open your file
-- 
 
 
 ## Git Daily Commands
@@ -22,6 +19,7 @@ it only check, don't start
 - `git push` — send to GitHub
 - `git pull` — get latest from GitHub
 - `git log` — see history
+- `git clone` - get clone project in github
 
 ## My GitHub
 - Username: drodionichev
@@ -30,7 +28,19 @@ it only check, don't start
 ## Homebrew
 - `brew install [name]` - install programs
 - `brew uninstall [name]` - uninstall programs
-- `brew update` - update list programs
-- `brew update` - update all programs
-- `brew list` - update programs, what you install
+- `brew update` - update Homebrew itself and refresh the list of available packages
+- `brew upgrade` - update all programs
+- `brew list` - show all installed programs
+
+## Nano
+- `nano ~/.zshrc` - open nano
+- `source ~/.zshrc` - active setting 
+- Ctrl + O + Enter (Write Out) - save
+- Ctrl + X - Exit
+- Ctrl + K - cut line
+- Ctrl + U - paste line
+- Ctrl + W - search word in project
+- Ctrl + C - show your position 
+
+
 
