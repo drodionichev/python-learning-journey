@@ -6,6 +6,14 @@
 - `pwd` — show current directory
 - `mkdir <name>` — create directory
 - `touch <file>` — create empty file
+- `python3 --version` - check python, --version - speak OS, what
+it only check, don't start
+- `pip3 --version` - check version packet
+- `git --version` - check version github
+- `which python3` - path to file
+- `cd~` - open your file
+- 
+
 
 ## Git Daily Commands
 - `git status` — what's changed
@@ -18,3 +26,11 @@
 ## My GitHub
 - Username: drodionichev
 - Repo: github.com/drodionichev/python-learning-journey
+
+## Homebrew
+- `brew install [name]` - install programs
+- `brew uninstall [name]` - uninstall programs
+- `brew update` - update list programs
+- `brew update` - update all programs
+- `brew list` - update programs, what you install
+
