@@ -8,7 +8,7 @@ Become an SDET in 18-24 months
 - Learning Python and Java in parallel
 - Starting from scratch in programming
 
-## Day 1 — 30 April 2026
+## Day 1 — 29 April 2026
 - Installed Python 3.12 via Homebrew
 - Set up Git and GitHub account (drodionichev)
 - Created first repository: python-learning-journey
@@ -19,3 +19,9 @@ Become an SDET in 18-24 months
 - Made first git push by myself, without instructions
 - Started feeling less afraid of terminal
 - Lesson: I remember more than I think
+
+## Day 2 30 April 2026
+- Learned basic data types
+- Understood the difference between mutable and immutable
+- Practiced using the .append method
+- Completed a logic challenge on mutability
