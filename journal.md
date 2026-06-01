@@ -82,3 +82,31 @@ Become an SDET in 18-24 months
 
 **Files created:** day_6_dicts.py
 **Commits:** 1
+
+## Day 7 — 1 June 2026 — Tuples & Sets
+
+**What I learned:**
+
+**Tuples:**
+- Immutable — can't change after creation (TypeError on assignment)
+- Indexing works like lists: point[0]
+- Can be used as dict keys (lists can't)
+- Tuple unpacking: low, high = get_min_max(nums)
+- Functions return multiple values as a tuple
+
+**Sets:**
+- Collection of unique elements, unordered
+- Auto-removes duplicates: set([1,2,2,3]) → {1,2,3}
+- {} is an empty dict, set() is an empty set
+- Set operations:
+  - & intersection (in both)
+  - | union (all together)
+  - - difference (in a but not b)
+- .add() — add element (like .append() for sets)
+
+**Practice tasks:**
+- find_duplicates(items) — counter pattern + set for unique result
+- compare_api_response(expected, actual) — set difference both ways (real QA pattern)
+
+**Files created:** day_7_tuples_sets.py
+**Commits:** ?
