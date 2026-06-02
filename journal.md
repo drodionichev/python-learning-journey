@@ -109,4 +109,33 @@ Become an SDET in 18-24 months
 - compare_api_response(expected, actual) — set difference both ways (real QA pattern)
 
 **Files created:** day_7_tuples_sets.py
-**Commits:** ?
+**Commits:** 1
+
+## Day 8 — 2 June 2026 — Conditions & Functions Deep
+
+**What I learned:**
+
+**Conditions:**
+- if / elif / else — checks top to bottom, first True wins, rest skipped
+- Order matters — from specific to general (wrong order breaks logic)
+- Logical operators: and (both True), or (at least one), not (inverts)
+- Chained comparison: 90 <= score <= 100 (pythonic, cleaner than two ands)
+
+**Functions deep:**
+- *args — any number of positional arguments, collected into a TUPLE
+- **kwargs — any number of named arguments, collected into a DICT
+- The = sign at call time decides: no name → args, name=value → kwargs
+- Parameter order is strict: normal params, then *args, then **kwargs
+
+**New bits:**
+- any(condition for x in collection) — True if at least one is True (brother of all())
+- char.isdigit() — check if a character is a digit
+
+**Practice tasks:**
+- can_vote(age, is_citizen) — and logic, early return
+- grade_score(score) — if/elif chain with range checks + Invalid guard
+- build_test_report(suite, *results, **meta) — real test-report structure
+- check_passwords(*passwords) — *args + dict result + compound condition + any()
+
+**Files created:** day_8_conditions.py
+**Commits:** 1
